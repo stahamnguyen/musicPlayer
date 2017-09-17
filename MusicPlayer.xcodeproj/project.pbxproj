@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB85AD4F1F6F0BA5002958CF /* GetSongInfoDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB85AD4E1F6F0BA5002958CF /* GetSongInfoDelegate.swift */; };
 		EB8B3BC71F6ECF86008F31D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8B3BC61F6ECF86008F31D3 /* AppDelegate.swift */; };
-		EB8B3BC91F6ECF86008F31D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8B3BC81F6ECF86008F31D3 /* ViewController.swift */; };
+		EB8B3BC91F6ECF86008F31D3 /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8B3BC81F6ECF86008F31D3 /* FirstVC.swift */; };
 		EB8B3BCC1F6ECF86008F31D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB8B3BCA1F6ECF86008F31D3 /* Main.storyboard */; };
 		EB8B3BCE1F6ECF86008F31D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB8B3BCD1F6ECF86008F31D3 /* Assets.xcassets */; };
 		EB8B3BD11F6ECF86008F31D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB8B3BCF1F6ECF86008F31D3 /* LaunchScreen.storyboard */; };
+		EB8B3BDE1F6ED548008F31D3 /* A Town With An Ocean View.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB8B3BD91F6ED548008F31D3 /* A Town With An Ocean View.mp3 */; };
+		EB8B3BDF1F6ED548008F31D3 /* Nostalgia.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB8B3BDA1F6ED548008F31D3 /* Nostalgia.mp3 */; };
+		EB8B3BE01F6ED548008F31D3 /* One More Night.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB8B3BDB1F6ED548008F31D3 /* One More Night.mp3 */; };
+		EB8B3BE11F6ED548008F31D3 /* River Flows In You.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB8B3BDC1F6ED548008F31D3 /* River Flows In You.mp3 */; };
+		EB8B3BE21F6ED548008F31D3 /* Stereo Hearts.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB8B3BDD1F6ED548008F31D3 /* Stereo Hearts.mp3 */; };
+		EB8B3BE41F6ED8D5008F31D3 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8B3BE31F6ED8D5008F31D3 /* SecondVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB85AD4E1F6F0BA5002958CF /* GetSongInfoDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetSongInfoDelegate.swift; sourceTree = "<group>"; };
 		EB8B3BC31F6ECF86008F31D3 /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB8B3BC61F6ECF86008F31D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EB8B3BC81F6ECF86008F31D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB8B3BC81F6ECF86008F31D3 /* FirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
 		EB8B3BCB1F6ECF86008F31D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB8B3BCD1F6ECF86008F31D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB8B3BD01F6ECF86008F31D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB8B3BD21F6ECF86008F31D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB8B3BD91F6ED548008F31D3 /* A Town With An Ocean View.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "A Town With An Ocean View.mp3"; path = "../../../../../Downloads/Music/A Town With An Ocean View.mp3"; sourceTree = "<group>"; };
+		EB8B3BDA1F6ED548008F31D3 /* Nostalgia.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Nostalgia.mp3; path = ../../../../../Downloads/Music/Nostalgia.mp3; sourceTree = "<group>"; };
+		EB8B3BDB1F6ED548008F31D3 /* One More Night.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "One More Night.mp3"; path = "../../../../../Downloads/Music/One More Night.mp3"; sourceTree = "<group>"; };
+		EB8B3BDC1F6ED548008F31D3 /* River Flows In You.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "River Flows In You.mp3"; path = "../../../../../Downloads/Music/River Flows In You.mp3"; sourceTree = "<group>"; };
+		EB8B3BDD1F6ED548008F31D3 /* Stereo Hearts.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Stereo Hearts.mp3"; path = "../../../../../Downloads/Music/Stereo Hearts.mp3"; sourceTree = "<group>"; };
+		EB8B3BE31F6ED8D5008F31D3 /* SecondVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +69,28 @@
 			isa = PBXGroup;
 			children = (
 				EB8B3BC61F6ECF86008F31D3 /* AppDelegate.swift */,
-				EB8B3BC81F6ECF86008F31D3 /* ViewController.swift */,
+				EB8B3BC81F6ECF86008F31D3 /* FirstVC.swift */,
+				EB8B3BE31F6ED8D5008F31D3 /* SecondVC.swift */,
 				EB8B3BCA1F6ECF86008F31D3 /* Main.storyboard */,
 				EB8B3BCD1F6ECF86008F31D3 /* Assets.xcassets */,
 				EB8B3BCF1F6ECF86008F31D3 /* LaunchScreen.storyboard */,
 				EB8B3BD21F6ECF86008F31D3 /* Info.plist */,
+				EB8B3BD81F6ED50A008F31D3 /* Songs */,
+				EB85AD4E1F6F0BA5002958CF /* GetSongInfoDelegate.swift */,
 			);
 			path = MusicPlayer;
+			sourceTree = "<group>";
+		};
+		EB8B3BD81F6ED50A008F31D3 /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				EB8B3BD91F6ED548008F31D3 /* A Town With An Ocean View.mp3 */,
+				EB8B3BDA1F6ED548008F31D3 /* Nostalgia.mp3 */,
+				EB8B3BDB1F6ED548008F31D3 /* One More Night.mp3 */,
+				EB8B3BDC1F6ED548008F31D3 /* River Flows In You.mp3 */,
+				EB8B3BDD1F6ED548008F31D3 /* Stereo Hearts.mp3 */,
+			);
+			name = Songs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +152,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB8B3BDF1F6ED548008F31D3 /* Nostalgia.mp3 in Resources */,
+				EB8B3BE01F6ED548008F31D3 /* One More Night.mp3 in Resources */,
+				EB8B3BE21F6ED548008F31D3 /* Stereo Hearts.mp3 in Resources */,
+				EB8B3BDE1F6ED548008F31D3 /* A Town With An Ocean View.mp3 in Resources */,
+				EB8B3BE11F6ED548008F31D3 /* River Flows In You.mp3 in Resources */,
 				EB8B3BD11F6ECF86008F31D3 /* LaunchScreen.storyboard in Resources */,
 				EB8B3BCE1F6ECF86008F31D3 /* Assets.xcassets in Resources */,
 				EB8B3BCC1F6ECF86008F31D3 /* Main.storyboard in Resources */,
@@ -136,7 +170,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB8B3BC91F6ECF86008F31D3 /* ViewController.swift in Sources */,
+				EB8B3BC91F6ECF86008F31D3 /* FirstVC.swift in Sources */,
+				EB8B3BE41F6ED8D5008F31D3 /* SecondVC.swift in Sources */,
+				EB85AD4F1F6F0BA5002958CF /* GetSongInfoDelegate.swift in Sources */,
 				EB8B3BC71F6ECF86008F31D3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +337,7 @@
 				EB8B3BD71F6ECF86008F31D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
