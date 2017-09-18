@@ -9,17 +9,22 @@
 import UIKit
 import AVFoundation
 
-private let musicFormat = ".mp3"
+var songList = [String]()
 
-private var songList = [String]()
-private var audioPlayer = AVAudioPlayer()
+var audioPlayer = AVAudioPlayer()
 
-class FirstVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
+private let titleOfVC = "Song list"
+
+class FirstVC: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
         getSongName()
+        
+        navigationItem.title = titleOfVC
+        
+        tableView.tableFooterView = UIView()
     }
     
     private func getSongName() {
@@ -41,55 +46,22 @@ class FirstVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
             }
             
         } catch {
-            
+            print(error)
         }
     }
 
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return songList.count
     }
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cellId", for: indexPath)
         cell.textLabel?.text = songList[indexPath.row]
         return cell
     }
     
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
-        if let audioPathInString = Bundle.main.path(forResource: songList[indexPath.row], ofType: musicFormat) {
-            
-            let audioPathInURL = NSURL(fileURLWithPath: audioPathInString)
-            
-            let selectedSong = AVPlayerItem(url: audioPathInURL as URL)
-            let metadataList = selectedSong.asset.metadata
-            
-            tabBarController?.selectedIndex = 1
-            
-            for item in metadataList {
-                if item.commonKey == "artwork" {
-                    if let audioImage = UIImage(data: item.value as! Data) {
-                        if let secondVC = tabBarController?.viewControllers?[1] as? SecondVC {
-                            secondVC.updateImageView(image: audioImage)
-                        }
-                    }
-                }
-            }
-        }
-        
-        
-        
-        
-        
-//
-//        do {
-//            try audioPlayer = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audioPath!) as URL)
-//            
-//        } catch {
-//            
-//        }
-//        
-//        audioPlayer.play()
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        playingSongIndex = indexPath.row
     }
 
 }
