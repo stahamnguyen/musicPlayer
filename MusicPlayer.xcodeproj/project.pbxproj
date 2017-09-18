@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EB85AD4F1F6F0BA5002958CF /* GetSongInfoDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB85AD4E1F6F0BA5002958CF /* GetSongInfoDelegate.swift */; };
 		EB85AD511F6FFF65002958CF /* Nostalgia.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB85AD501F6FFF65002958CF /* Nostalgia.mp3 */; };
 		EB85AD531F70226F002958CF /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB85AD521F70226F002958CF /* CustomButton.swift */; };
 		EB85AD551F7044B4002958CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB85AD541F7044B4002958CF /* Assets.xcassets */; };
@@ -23,7 +22,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EB85AD4E1F6F0BA5002958CF /* GetSongInfoDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetSongInfoDelegate.swift; sourceTree = "<group>"; };
 		EB85AD501F6FFF65002958CF /* Nostalgia.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Nostalgia.mp3; path = ../../../../../Downloads/Music/Nostalgia.mp3; sourceTree = "<group>"; };
 		EB85AD521F70226F002958CF /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		EB85AD541F7044B4002958CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -77,7 +75,6 @@
 				EB8B3BCF1F6ECF86008F31D3 /* LaunchScreen.storyboard */,
 				EB8B3BD21F6ECF86008F31D3 /* Info.plist */,
 				EB8B3BD81F6ED50A008F31D3 /* Songs */,
-				EB85AD4E1F6F0BA5002958CF /* GetSongInfoDelegate.swift */,
 				EB85AD521F70226F002958CF /* CustomButton.swift */,
 				EB85AD541F7044B4002958CF /* Assets.xcassets */,
 			);
@@ -175,7 +172,6 @@
 			files = (
 				EB8B3BC91F6ECF86008F31D3 /* FirstVC.swift in Sources */,
 				EB8B3BE41F6ED8D5008F31D3 /* SecondVC.swift in Sources */,
-				EB85AD4F1F6F0BA5002958CF /* GetSongInfoDelegate.swift in Sources */,
 				EB8B3BC71F6ECF86008F31D3 /* AppDelegate.swift in Sources */,
 				EB85AD531F70226F002958CF /* CustomButton.swift in Sources */,
 			);
