@@ -26,7 +26,7 @@ Swift 3.0
 5. Use slider to visualize playing time and allow user to adjust playing time through slider.
 
 ## Versioning:
-#### Sep 10, 2017 - 1.0 
+#### Sep 19, 2017 - 1.0 
 
 ## Bugs:
 A song without metadata is used to test the reliability of the application.
