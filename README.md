@@ -1,5 +1,5 @@
 # Music Player
-This is my own project building an almost complete iOS application of photography in Swift.
+This is my own project building an almost complete iOS application of photography in Swift. UI is not the main focus in this application.
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
