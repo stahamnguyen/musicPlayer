@@ -31,7 +31,7 @@ Swift 3.0
 ## Bugs:
 A song without metadata is used to test the reliability of the application.
 If the user has not selected the song, when being selected, the title of the song display normally.
-However, if the move forward or backward a cycle, the title would not appear (only for the song without metadata).
+However, if being moved forward or backward a cycle, the title would not appear (only for the song without metadata).
 After testing, the author realises that the text of the title label is still assigned correctly and only the label itself does not appear for the song.
 Other songs with metadata work just fine. Therefore, the author believe this is a bug of the simulator.
 
